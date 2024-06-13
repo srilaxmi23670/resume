@@ -1,0 +1,216 @@
+%-------------------------
+% Resume in Latex
+% Author : Srilaxmi Nancharla
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemContent}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      % \textbf{#1} & #2 \\
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://sourabhbajaj.com/}{\Large Srilaxmi Nancharla}} & Email : \href{mailto:srilaxminancharla23@gmail.com}{srilaxminancharla23@gmail.com}\\
+  \href{https://www.linkedin.com/in/srilaxmi23//}{https://www.linkedin.com/in/srilaxmi23/} & Mobile : 9380704199 \\
+   % \href{https://github.com/srilaxmi23670}{https://github.com/srilaxmi23670}
+\end{tabular*}
+
+
+% %
+% %--------PROFESSIONAL SUMMARY------------
+% \section{Professional Summary}
+% {Software developer with 2 years expertise in agile methodologies and cross-functional teamwork to deliver high-quality solutions that meets business objectives efficiently.}
+% % {Software developer with 2 years expertise in reactive stack Java development and Spring framework, designing, implementing, and maintaining scalable applications, leveraging modern software architecture principles. Skilled in agile methodologies and cross-functional teamwork to deliver high-quality solutions that meet business objectives efficiently.}
+
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {NATIONAL INSTITUTE OF TECHNOLOGY, GOA}{Goa, India}
+      {Bachelors of Technology in Electronics and Communications Engineering; GPA: 9.06}{Aug 2018 -- Apr 2022}
+      \resumeSubHeadingListStart
+      \resumeItemContent{Worked as Secretary for Team SPECTRA, an official ECE council.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {NARAYANA GROUP OF INSTITUTIONS, BACHUPALLY}{Hyderabad, India}
+      {Higher Secondary Certificate in Maths, Physics, Chemistry; Marks: 985 (985/1000)}{Mar 2016 -- Mar 2018}
+  \resumeSubHeadingListEnd
+
+
+
+%-----------PROFESSIONAL EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Turtlemint}{Pune, Inida}
+      {Software Engineer}{Jul 2022 - Present}
+      \resumeItemListStart
+
+      \resumeItemContent{Developed and maintained a microservices-based architecture, ensuring high scalability and resilience through test-driven development for a reliable system.}
+      \resumeItemContent{Revamped search functionality with advanced algorithms using MongoDB and Elasticsearch, achieving zero downtime and boosting suggestion accuracy by 20\%.}
+      \resumeItemContent{Transformed service by configuring a versatile platform supporting diverse types, from standard schemas with precise constraints to insurer-specific uploads.}
+      \resumeItemContent{Engineered a clean, maintainable codebase following SOLID principles; enhanced system reliability by 30\% and reduced post-release bugs by 50\%, leading to a significant decrease in support tickets.}
+      \resumeItemContent{Implemented a flexible configuration framework enabling rapid schema adjustments and seamless integration of new data sources.}
+      \resumeItemContent{Identified the requirements needed by product and vertical teams and provided support for their requirements and issues faced during integration.}
+
+      \resumeItemListEnd
+
+    \resumeSubSubheading
+      {Tech Intern}{Jan 2022 - Jul 2022}
+      \resumeItemListStart
+      
+        % \resumeItem{Research and Problem Solving}
+          \resumeItemContent{Evaluated data mapping tools aligning project requirements by exploring client offerings.}
+          \resumeItemContent{Demonstrated innovative and strategic thinking in the early stages of project development.}
+          \resumeItemContent{Developed schema and drafted API contracts ensuring adherence to RESTful principles.}
+        
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {NITI Aayog, Government of India}{Delhi, India}
+      {Agriculture Vertical Intern}{Dec 2021 - Feb 2021}
+      \resumeItemListStart
+        % \resumeItem{Project Planning and Management}
+          \resumeItemContent{Built 'NITIVet – Telemedicine for Livestock Health and Safety' website.}
+          \resumeItemContent{Used for booking consultaion with a veterinary doctor with enhanced user interface.
+        }
+        \resumeItemContent{\href{https://drive.google.com/file/d/1es_FbVwxnpYvN2apLt0jYVZ2rLCrcefl/view?usp=sharing}{Received 'Excellent' performance rating from NITI Aayog, for exceptional contribution \faLink}}
+
+    %   \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  % \resumeSubHeadingListStart
+  \item{
+     \textbf{Microwave Imaging}{: Gauss Seidel implementation for inverse problem in Microwave Imaging.} }
+ \item{
+     \textbf{Sudoku Game}  {: Designed a C++ GUI program for generating and playing Sudoku games, .}}
+    % \resumeSubItem{
+%        \resumeSubItem{Smart Traffic Control System}
+%       {Implemented a Smart Traffic Control System using Arduino, featuring decoders,
+% comparators, sensors, and modules for efficient traffic management.}
+      
+  \resumeSubHeadingListEnd
+
+
+%
+%-------- SKILLS------------
+\section{Skills}
+ \resumeItemListStart
+    \item{
+     \textbf{Technical Skills}{: Java, SpringBoot, Object-Oriented Programming (OOP), RESTful architecture, Data Structures and Algorithms (DSA), Low-Level Design (LLD), High-Level Design (HLD), Git, Github, Docker }
+     }
+    \item{
+     \textbf{Databases}{: MongoDB, Redis, ElasticSearch, Kafka, OpenSearch }
+    }
+     % \item{
+     % \textbf{Software Design and Architecture}{: DBMS, OOP, D}
+     % }
+    
+ \resumeItemListEnd
+
+
+%-----------ACHIEVEMENTS AND CERTIFICATIONS-----------------
+\section{Achivements and Certifications}
+  \resumeItemListStart
+    \item {
+     \href{https://coursera.org/share/04b5a9ed0ae3119d655fc2f711905c62}{ Completed Technical Support Fundamentals course on Coursera, demonstrating proficiency in troubleshooting techniques and IT support principles \faLink}
+    
+    }
+
+    \item {
+     \href{https://drive.google.com/file/d/1_2sQ7YmyKoDxdXu7vdadC9ebzHqom_Rr/view?usp=sharing}{Highly recommended by Samagra Foundation, Nashik, as a self-motivated, punctual, and creative intern with a strong professional behaviour \faLink}
+    }
+  \resumeItemListEnd
+
+
+%-------------------------------------------
+\end{document}
